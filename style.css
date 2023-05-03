@@ -81,6 +81,13 @@ header {
 .lang-options {
     list-style: none;
     padding-left: 15px;
+    cursor: pointer;
+}
+
+.lang-options:active .lang-options:focus  {
+    padding: 10px;
+    background: #544945;
+    border-radius: 5px;
 }
 
 .mobile-menu-icon{
@@ -104,10 +111,8 @@ header {
     flex: 1;
 }
 
-.right-main {
-    /* max-width: 800rem;
-    height: 200px; */
-}
-
-
-
+/* .inside-top-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
