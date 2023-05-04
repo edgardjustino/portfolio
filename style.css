@@ -41,6 +41,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    max-height: 30px;
 }
 
 .logo h1 {
@@ -100,7 +101,25 @@ header {
 
 /* Top Section */
 
-.top-section {
+.inside-top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+    top: 50px;
+    height: 80vh;
+}
+
+.right-main img{
+object-fit: cover;
+width: 700px;
+/* height: 700px; */
+/* position: absolute; */
+top: 20%;
+right: 0;
+}
+
+/* .inside-top-section {
     display: flex;
     margin-top: 75px;
     margin-left: 0;
@@ -109,10 +128,21 @@ header {
     align-items: center;
     justify-content: space-around;
     flex: 1;
-}
+    /* position: relative; */
+    /* padding: 50px; */
+/* } */
 
-/* .inside-top-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+
+
+/* .right-main img { */
+    /* max-height: 500px; */
+    /* position: relative; */
+    /* width: 100%; */
+    /* object-fit: cover;
+    width: 100vw; */
+/* } */
+
+/* .leff-main {
+ position: absolute;
+     left: 300px; 
+}*/
