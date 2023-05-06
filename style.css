@@ -99,7 +99,17 @@ header {
     display: none;
 }
 
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Top Section */
+
+.top-section {
+    margin-top: 77px;
+}
 
 .inside-top-section {
     display: flex;
