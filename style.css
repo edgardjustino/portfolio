@@ -17,6 +17,12 @@ html {
     --dark-color: #271e1a;
 }
 
+.active {
+    background: #322824;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 body {
     background-color: var(--dark-color);
     color: var(--bright-color);
@@ -44,8 +50,10 @@ header {
     max-height: 30px;
 }
 
-.logo h1 {
+.logo h1 a{
     color: var(--bright-color);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .nav-list {
