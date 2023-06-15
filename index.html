@@ -4,68 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
     <title>Edgard Justino</title>
   </head>
   <body>
     <header>
-      <nav class="nav-bar">
-        <div class="logo">
-          <h1><a href="#inicio">Edgard Justino</a></h1>
+      <nav class="nav-header">
+        <div class="logo-area">
+          <!-- <a href="#inicio"><i class="fa-solid fa-wand-magic-sparkles"></i></a> -->
+          <a href="#inicio"><p id="logo-text">Edgard Justino</p></a>
         </div>
-
-        <div class="nav-list">
-          <ul>
-            <li class="nav-item"><a href="#inicio" class="nav-link active">Início</a></li>
-            <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
-            <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        <div class="nav-links">
+          <ul class="nav-menu" id="navmenu">
+            <li class="nav-item">
+              <a href="#inicio" class="nav-link">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contato" class="nav-link">Contato</a>
+            </li>
           </ul>
         </div>
-
-        <div class="languages">
-          <ul>
-            <li class="lang-options por active">PT</li>
-            <li class="lang-options eng">EN</li>
-            <li class="lang-options esp">ES</li>
-          </ul>
-        </div>
-
-        <div class="mobile-menu-icon">
-          <button>
-            <img class="icon" src="images/menu_white_36dp.svg" alt="" />
-          </button>
-        </div>
+        <button onclick="toggle()" class="toggle-btn" id="togglebtn">
+          <span class="line-btn"></span>
+          <span class="line-btn"></span>
+          <span class="line-btn"></span>
+        </button>
       </nav>
-
-      <div class="mobile-menu">
-        <ul>
-          <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
-          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
-        </ul>
-      </div>
     </header>
     <main>
       <section class="top-section">
-        <div class="inside-top-section">
-          <div class="left-main">
-            <h1 class="hi">Hello! I'm Edgard Justino!</h1>
-            <h1 class="profession">I'm a web-developer!</h1>
-            <p class="presentation">
-              What should I say? I graduated as a Graphic Designer...
-            </p>
-          </div>
-
-          <div class="right-main">
-            <img
-              src="images/eubgdark.jpg"
-              alt="me in the image in front of a laptop"
-              srcset=""
-            />
-          </div>
-        </div>
+        <div class="inside-top-section"></div>
       </section>
 
       <!-- PROJETOS -->
@@ -85,6 +60,6 @@
     </main>
     <!-- FOOTER -->
 
-    <script src="scrips.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
