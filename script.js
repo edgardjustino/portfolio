@@ -3,6 +3,7 @@ const navToggle = document.getElementById('togglebtn');
 
 function toggle() {
   navMenu.classList.toggle('active-toggle');
+  console.log(toggle)
   navToggle.classList.toggle('active-toggle');
 }
 
